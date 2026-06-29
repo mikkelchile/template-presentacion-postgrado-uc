@@ -187,14 +187,14 @@ El template usa `biblatex` con `biber`. Agrega tus referencias en `references.bi
 
 ## Autor y motivación
 
-Este template fue creado por iniciativa personal de **Miguel Farias** como una propuesta no oficial para facilitar la preparación de presentaciones académicas de posgrado en Ingeniería UC.
+Este template fue creado por iniciativa personal de Miguel Farias --> **Mikkel Farias** como una propuesta no oficial para facilitar la preparación de presentaciones académicas de posgrado en Ingeniería UC.
 
 La idea surge a partir de la necesidad de contar con una base editable, ordenada y visualmente consistente para presentaciones de avance, seminarios, defensas internas u otras instancias académicas de posgrado.
 
 El proyecto se mantiene abierto a mejoras, correcciones y sugerencias. Si encuentras errores, tienes ideas para mejorar el formato, quieres proponer nuevas diapositivas o deseas colaborar con una versión más visual o flexible del template, puedes abrir un issue o enviar un pull request.
 
 - GitHub: [Miguel Farias](https://github.com/mikkelchile)
-- LinkedIn: [Miguel Farias](www.linkedin.com/in/miguelfariasuc)
+- LinkedIn: [Mikkel Farias](www.linkedin.com/in/miguelfariasuc)
 
 ## Créditos e inspiración
 
