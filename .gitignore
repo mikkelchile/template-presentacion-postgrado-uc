@@ -10,8 +10,5 @@
 *.toc
 build/
 
-# Compiled presentation (optional to ignore, usually recommended to avoid Git bloat)
-main.pdf
-
 # macOS system files
 .DS_Store
