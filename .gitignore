@@ -1,14 +1,26 @@
-# LaTeX compilation output/temporary files
-*.aux
-*.bcf
-*.log
-*.nav
-*.out
-*.run.xml
-*.snm
-*.synctex.gz
-*.toc
-build/
+# More LaTeX auxiliary files
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.vrb
+*.xdv
+*.synctex(busy)
+*.lof
+*.lot
+*.lol
 
-# macOS system files
-.DS_Store
+# Local/editor files
+.vscode/
+.idea/
+__MACOSX/
+*.bak
+*.tmp
+
+# Environment/secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_rsa.pub

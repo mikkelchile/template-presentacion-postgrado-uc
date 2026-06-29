@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Contexto y problema}{3}{0}{1}
+\beamer@sectionintoc {2}{Objetivos y antecedentes}{8}{0}{2}
+\beamer@sectionintoc {3}{Metodología}{12}{0}{3}
+\beamer@sectionintoc {4}{Avance y resultados preliminares}{16}{0}{4}
+\beamer@sectionintoc {5}{Plan de trabajo y cierre}{21}{0}{5}
+\beamer@sectionintoc {6}{Referencias}{25}{0}{6}
+\beamer@sectionintoc {7}{Anexos}{28}{1}{7}
