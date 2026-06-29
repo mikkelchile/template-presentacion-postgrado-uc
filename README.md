@@ -193,7 +193,7 @@ La idea surge a partir de la necesidad de contar con una base editable, ordenada
 
 El proyecto se mantiene abierto a mejoras, correcciones y sugerencias. Si encuentras errores, tienes ideas para mejorar el formato, quieres proponer nuevas diapositivas o deseas colaborar con una versión más visual o flexible del template, puedes abrir un issue o enviar un pull request.
 
-- GitHub: [Miguel Farias](https://github.com/mikkelchile)
+- GitHub: [Mikkel Farias](https://github.com/mikkelchile)
 - LinkedIn: [Mikkel Farias](www.linkedin.com/in/miguelfariasuc)
 
 ## Créditos e inspiración
