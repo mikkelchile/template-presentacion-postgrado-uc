@@ -253,7 +253,9 @@ Como alternativa, también se recomienda utilizar [Visual Studio Code](https://c
 
 ## Mensaje para estudiantes
 
-Si estás preparando una presentación de avance, seminario, defensa interna o instancia académica de posgrado, felicitaciones por llegar a esta etapa. Cada diapositiva representa no solo horas de estudio, lectura y trabajo, sino también una forma de ordenar tus ideas para compartirlas con otros. Ojalá este template te ayude a concentrarte en lo importante: comunicar con claridad el valor de tu investigación. Recuerda que el conocimiento cobra verdadero sentido cuando se pone al servicio de los demás. Como inspiración, vale tener presente que *la educación no solo ilumina una mente, también le entrega la responsabilidad de construir un futuro mejor*. Que tu trabajo académico sea una contribución rigurosa, honesta y valiosa, y que nunca olvides el gran valor que tiene una mente educada al servicio de Chile.
+Si estás preparando una presentación de avance, seminario, defensa interna o instancia académica de posgrado, felicitaciones por llegar a esta etapa. Cada diapositiva representa no solo horas de estudio, lectura y trabajo, sino también una forma de ordenar tus ideas para compartirlas con otros. Ojalá este template te ayude a concentrarte en lo importante: comunicar con claridad el valor de tu investigación. Recuerda que el conocimiento cobra verdadero sentido cuando se pone al servicio de los demás. 
+
+Como inspiración, vale tener presente que *la educación no solo ilumina una mente, también le entrega la responsabilidad de construir un futuro mejor*. Que tu trabajo académico sea una contribución rigurosa, honesta y valiosa, y que nunca olvides el gran valor que tiene una mente educada al servicio de Chile.
 
 Con cariño y humildad, esperando que este pequeño aporte pueda servir a otros estudiantes,  
 **Mikkel**
