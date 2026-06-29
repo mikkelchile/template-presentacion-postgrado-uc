@@ -230,7 +230,7 @@ El proyecto se mantiene abierto a mejoras, correcciones y sugerencias. Si encuen
 - Adaptado para presentaciones académicas de posgrado en Ingeniería UC.
 - Pensado para estudiantes de magíster y doctorado.
 - Inspirado parcialmente en la lógica de navegación de THU-Beamer-Theme. Ver `licenses/THU-Beamer-Theme-reference.txt`.
-- Este template se inspira en referencias entregadas previamente por el autor del repositorio y en materiales académicos desarrollados dentro del contexto de Ingeniería UC. En particular, se considera como referencia visual una presentación/poster elaborada por [Carlos Otárola](https://www.linkedin.com/in/cotrolam/), estudiante de doctorado, quien utilizó formato, colores y elementos gráficos alineados con el Kit Digital UC. Dicho trabajo sirvió como inspiración para construir una base reutilizable, editable y visualmente consistente para presentaciones de posgrado.
+- En particular, se considera como referencia visual una presentación/poster elaborada por [Carlos Otárola](https://www.linkedin.com/in/cotrolam/), estudiante de doctorado, quien utilizó formato, colores y elementos gráficos alineados con el Kit Digital UC. Dicho trabajo sirvió como inspiración para construir una base reutilizable, editable y visualmente consistente para presentaciones de posgrado.
 
 ## Nota sobre identidad institucional
 
