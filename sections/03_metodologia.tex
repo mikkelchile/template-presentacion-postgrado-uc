@@ -1,0 +1,86 @@
+% =========================================================
+\section{Metodología}
+% =========================================================
+
+\begin{frame}{Diseño metodológico}
+  \begin{table}
+  \fontsize{7.9}{9.2}\selectfont
+  \begin{tabularx}{\textwidth}{>{\bfseries}l X X X}
+    \toprule
+    Etapa & Insumo principal & Método de ejemplo & Producto esperado \\
+    \midrule
+    1 & Datos o antecedentes & Revisión, levantamiento o caracterización & Base de análisis \\
+    2 & Variables seleccionadas & Modelo, experimento o algoritmo & Resultado preliminar \\
+    3 & Caso de estudio & Validación, sensibilidad o comparación & Evidencia principal \\
+    4 & Resultados integrados & Discusión técnica & Conclusiones y próximos pasos \\
+    \bottomrule
+  \end{tabularx}
+  \end{table}
+  \begin{UCKeyPoint}
+    Reemplaza esta tabla por tu metodología real. La estructura privilegia trazabilidad: insumo, método y producto.
+  \end{UCKeyPoint}
+\end{frame}
+
+\begin{frame}{Variables, indicadores y criterios}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.33\textwidth}
+      \UCmetric{X}{Variable de entrada}{Describir unidad, rango o fuente.}
+      \UCmetric{Y}{Resultado de ejemplo}{Describir indicador principal.}
+    \end{column}
+    \begin{column}{0.33\textwidth}
+      \UCmetric{$n$}{Muestras / casos}{Indicar tamaño, cobertura o alcance.}
+      \UCmetric{$\Delta$}{Criterio de cambio}{Indicar umbral o comparación.}
+    \end{column}
+    \begin{column}{0.30\textwidth}
+      \begin{UCBlock}{Control de calidad}
+        Inserte aquí criterios de reproducibilidad, validación, supuestos o limitaciones metodológicas.
+      \end{UCBlock}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Flujo de trabajo}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.24\textwidth}
+      \centering
+      \UCProcessArrow{1. Datos}{fuentes, muestras o información}
+      \vspace{0.30cm}
+      \begin{tikzpicture}[scale=0.54]
+        \fill[UCBlueLight] (0,0) rectangle (2.6,1.2);
+        \draw[UCBluePPT] (0,0)--(2.6,1.2);
+        \draw[UCBluePPT] (0,1.2)--(2.6,0);
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.24\textwidth}
+      \centering
+      \UCProcessArrow{2. Método}{modelo, experimento o análisis}
+      \vspace{0.42cm}
+      \begin{tikzpicture}[scale=0.54]
+        \foreach \x in {0,0.75,1.5}{\foreach \y in {0,0.55,1.1}{\draw[UCBluePPT,fill=UCWhite] (\x,\y) circle (0.20);}}
+        \fill[UCYellow] (1.5,1.1) circle (0.20);
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.24\textwidth}
+      \centering
+      \UCProcessArrow{3. Evaluación}{indicadores y sensibilidad}
+      \vspace{0.30cm}
+      \begin{tikzpicture}[scale=0.54]
+        \draw[UCBluePPT,thick] (0.2,0.2)--(0.7,1.1)--(1.2,0.65)--(1.8,1.5)--(2.2,0.3);
+        \draw[UCGray] (0.15,0.15)--(2.3,0.15);
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.24\textwidth}
+      \centering
+      \UCProcessArrow{4. Discusión}{resultados y límites}
+      \vspace{0.30cm}
+      \begin{tikzpicture}[scale=0.54]
+        \draw[UCBluePPT,thick] (0,0) -- (2.4,0) -- (2.4,1.5) -- (0,1.5) -- cycle;
+        \draw[UCYellowDeep,line width=1pt] (0.25,0.3)--(0.9,0.7)--(1.35,0.55)--(2.1,1.15);
+      \end{tikzpicture}
+    \end{column}
+  \end{columns}
+  \vspace{0.18cm}
+  \begin{UCKeyPoint}
+    Usa esta lámina para explicar el método completo antes de entrar al detalle técnico.
+  \end{UCKeyPoint}
+\end{frame}

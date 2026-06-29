@@ -1,0 +1,107 @@
+% =========================================================
+\section{Avance y resultados preliminares}
+% =========================================================
+
+\begin{frame}{Estado actual del avance}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.32\textwidth}
+      \UCsmallmetric{Completado}{Etapa 1}{Inserte avance realizado.}
+      \UCsmallmetric{En curso}{Etapa 2}{Inserte trabajo actual.}
+    \end{column}
+    \begin{column}{0.32\textwidth}
+      \UCsmallmetric{Pendiente}{Etapa 3}{Inserte tarea pendiente.}
+      \UCsmallmetric{Riesgo}{Etapa crítica}{Inserte riesgo y mitigación.}
+    \end{column}
+    \begin{column}{0.32\textwidth}
+      \begin{UCBlock}{Lectura general}
+        Inserte aquí un resumen breve del estado del proyecto, destacando avances verificables y decisiones pendientes.
+      \end{UCBlock}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Plantilla para resultado principal}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.58\textwidth}
+      \begin{tikzpicture}
+        \begin{axis}[
+          ybar, width=\linewidth, height=5.0cm,
+          ymin=0, ymax=100,
+          ylabel={Indicador de ejemplo, \%},
+          symbolic x coords={A,B,C,D,E}, xtick=data,
+          grid=major, grid style={UCGrayLight},
+          axis line style={UCBlueDark},
+          tick label style={font=\scriptsize}, label style={font=\scriptsize},
+          bar width=12pt,
+          nodes near coords, nodes near coords style={font=\scriptsize, color=UCBlueDark},
+        ]
+        \addplot+[fill=UCBluePPT,draw=UCBluePPT] coordinates {(A,18)(B,35)(C,42)(D,55)(E,61)};
+        \end{axis}
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.38\textwidth}
+      \UCmetric{+XX}{Resultado de ejemplo}{Comparación contra línea base.}
+      \UCmetric{$Y$}{Variable explicativa}{Conectar con hipótesis o método.}
+      \begin{UCKeyPoint}
+        Mensaje de una frase: interpretación principal del resultado preliminar.
+      \end{UCKeyPoint}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Plantilla para comparar tendencias}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.64\textwidth}
+      \begin{tikzpicture}
+        \begin{axis}[
+          width=\linewidth,height=5.15cm,
+          xlabel={Tiempo o condición}, ylabel={Variable de respuesta},
+          xmin=0,xmax=10,ymin=0,ymax=1.0,
+          grid=both, grid style={UCGrayLight},
+          axis line style={UCBlueDark},
+          tick label style={font=\scriptsize}, label style={font=\scriptsize},
+          legend columns=1,
+          legend style={font=\scriptsize,draw=none,fill=none,at={(0.03,0.97)},anchor=north west}
+        ]
+        \addplot+[UCGray,mark=triangle*,line width=1pt] table[x=x,y=baseline,col sep=comma] {assets/data/example_results.csv};
+        \addplot+[UCBluePPT,mark=*,line width=1pt] table[x=x,y=scenario_a,col sep=comma] {assets/data/example_results.csv};
+        \addplot+[UCYellowDeep,mark=square*,line width=1pt] table[x=x,y=scenario_b,col sep=comma] {assets/data/example_results.csv};
+        \legend{Base, Escenario A, Escenario B}
+        \end{axis}
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.32\textwidth}
+      \begin{UCBlock}{Cómo narrarla}
+        \begin{itemize}
+          \item Tendencia principal.
+          \item Diferencia entre escenarios.
+          \item Incertidumbre o limitación.
+          \item Lectura para próximos pasos.
+        \end{itemize}
+      \end{UCBlock}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Discusión preliminar}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.31\textwidth}
+      \begin{UCBlock}{Dato}
+        Resultado medido, simulado, observado o calculado.
+      \end{UCBlock}
+    \end{column}
+    \begin{column}{0.31\textwidth}
+      \begin{UCBlock}{Evidencia}
+        Tendencia reproducible, contraste o patrón relevante.
+      \end{UCBlock}
+    \end{column}
+    \begin{column}{0.31\textwidth}
+      \begin{UCBlock}{Interpretación}
+        Explicación técnica respaldada por los resultados.
+      \end{UCBlock}
+    \end{column}
+  \end{columns}
+  \begin{UCKeyPoint}
+    Evita presentar conclusiones definitivas si el avance todavía es parcial. Usa lenguaje como “sugiere”, “es consistente con” o “requiere verificación”.
+  \end{UCKeyPoint}
+\end{frame}

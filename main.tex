@@ -1,0 +1,68 @@
+% !TeX program = lualatex
+% Template no oficial para presentaciones de posgrado en Ingeniería UC.
+% Edita los comandos de esta sección para adaptar el template a Magíster o Doctorado.
+\documentclass{ucbeamer}
+
+\addbibresource{references.bib}
+
+% ---------------------------------------------------------
+% Datos globales editables de la presentación
+% ---------------------------------------------------------
+\newcommand{\tipoPrograma}{Magíster / Doctorado}
+\newcommand{\nombrePrograma}{Nombre del programa de posgrado}
+\newcommand{\tituloPresentacion}{Título de la presentación}
+\newcommand{\tituloTesis}{Título tentativo de la tesis}
+\newcommand{\nombreEstudiante}{Nombre del estudiante}
+\newcommand{\nombreGuia}{Nombre profesor/a guía}
+\newcommand{\nombreCoGuia}{Nombre profesor/a co-guía}
+\newcommand{\departamentoEscuela}{Departamento / Escuela}
+\newcommand{\fechaPresentacion}{Santiago, Chile -- Fecha}
+\newcommand{\correoInstitucional}{correo.institucional@uc.cl}
+
+% ---------------------------------------------------------
+% Portada y metadatos Beamer
+% ---------------------------------------------------------
+\title{\bf \tituloPresentacion}
+\subtitle{Presentación de avance de posgrado}
+\author[\nombreEstudiante]{\nombreEstudiante}
+\date[Fecha]{\fechaPresentacion}
+\institute{Pontificia Universidad Católica de Chile}
+
+\setprogramtype{\tipoPrograma}
+\setthesistype{Tesis de \tipoPrograma: \tituloTesis}
+\setprogram{\nombrePrograma}
+\setdepartment{\departamentoEscuela}
+\setfaculty{Escuela de Ingeniería}
+\setsupervisor{Profesor/a guía: \nombreGuia}
+\setcosupervisor{Profesor/a co-guía: \nombreCoGuia}
+\setcontact{\correoInstitucional}
+\setfootertext{Presentación de posgrado -- Ingeniería UC}
+
+% Para reemplazar logos:
+% \UCsetlogos{assets/logos/uc_logo_template.png}{assets/logos/department_logo_placeholder.png}
+
+\begin{document}
+
+\UCtitleframe
+
+\begin{frame}{Ruta de la presentación}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.56\textwidth}
+      \tableofcontents
+    \end{column}
+    \begin{column}{0.40\textwidth}
+      \begin{UCKeyPoint}
+        Template no oficial para organizar una presentación de avance de posgrado. Reemplaza cada bloque por contenido propio y elimina las láminas que no correspondan a tu programa.
+      \end{UCKeyPoint}
+      \UCmetric{16:9}{Formato}{Portada, contexto, problema, objetivos, metodología, avance, resultados, cronograma, referencias y anexos.}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\input{sections/01_contexto}
+\input{sections/02_objetivos}
+\input{sections/03_metodologia}
+\input{sections/04_avance_resultados}
+\input{sections/05_cierre_anexos}
+
+\end{document}

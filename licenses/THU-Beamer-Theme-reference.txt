@@ -1,0 +1,4 @@
+This template is an original, unofficial UC Engineering postgraduate Beamer template inspired by the visual logic of THU-Beamer-Theme, especially the use of top navigation/miniframes and a clean academic Beamer structure.
+Reference project: https://github.com/tuna/THU-Beamer-Theme
+Original repository license at the time of consultation: LPPL-1.3c.
+No THU logos or institutional assets are included.
