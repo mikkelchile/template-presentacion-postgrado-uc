@@ -9,11 +9,33 @@ El proyecto fue creado por iniciativa personal para aportar una base común que 
 Este repositorio **no corresponde a un documento ni template oficial** de la Pontificia Universidad Católica de Chile. El uso de logos, colores y elementos gráficos UC debe respetar los lineamientos institucionales vigentes y las autorizaciones que correspondan.
 
 
+## Vista previa
+
+<p align="center">
+  <img src="assets/preview/preview-portada.jpg" alt="Portada del template de presentación de postgrado Ingeniería UC" width="100%">
+</p>
+
+<p align="center">
+  <em>Portada editable y estructura visual pensada para presentaciones académicas de posgrado.</em>
+</p>
+
+<p align="center">
+  <img src="assets/preview/preview-divisor-contexto.jpg" alt="Lámina divisoria de sección" width="49%">
+  <img src="assets/preview/preview-resultado-principal.jpg" alt="Lámina de resultados preliminares" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/preview/preview-collage.jpg" alt="Collage de láminas incluidas en el template" width="100%">
+</p>
+
+Las imágenes anteriores son capturas referenciales del PDF compilado. El contenido es genérico y debe ser reemplazado por la información real de cada estudiante, programa o unidad académica.
+
+
 ## Uso rápido
 
 ```bash
-git clone URL_DEL_REPOSITORIO
-cd template-posgrado-ingenieria-uc
+git clone https://github.com/mikkelchile/template-presentacion-postgrado-uc.git
+cd template-presentacion-postgrado-uc
 bash compile.sh
 ```
 
@@ -49,10 +71,15 @@ latexmk -lualatex main.tex
 ├── .latexmkrc                       # Configuración de latexmk
 ├── .gitignore                       # Archivos auxiliares ignorados por Git
 ├── LICENSE                          # Licencia sugerida del template
-├── ANONYMIZATION_REPORT.md          # Reporte de anonimización y revisión manual
+├── main.pdf                         # Vista compilada de referencia
 ├── assets/
 │   ├── data/
 │   │   └── example_results.csv      # Datos ficticios para gráficos de ejemplo
+│   ├── preview/                     # Capturas para la vista previa del README
+│   │   ├── preview-portada.jpg
+│   │   ├── preview-divisor-contexto.jpg
+│   │   ├── preview-resultado-principal.jpg
+│   │   └── preview-collage.jpg
 │   └── logos/
 │       ├── uc_logo_template.png     # Logo/placeholder UC; revisar permisos antes de usar
 │       └── department_logo_placeholder.png
@@ -187,14 +214,14 @@ El template usa `biblatex` con `biber`. Agrega tus referencias en `references.bi
 
 ## Autor y motivación
 
-Este template fue creado por iniciativa personal de Miguel Farias --> **Mikkel Farias** como una propuesta no oficial para facilitar la preparación de presentaciones académicas de posgrado en Ingeniería UC.
+Este template fue creado por iniciativa personal de **Mikkel Farias** como una propuesta no oficial para facilitar la preparación de presentaciones académicas de posgrado en Ingeniería UC.
 
 La idea surge a partir de la necesidad de contar con una base editable, ordenada y visualmente consistente para presentaciones de avance, seminarios, defensas internas u otras instancias académicas de posgrado.
 
 El proyecto se mantiene abierto a mejoras, correcciones y sugerencias. Si encuentras errores, tienes ideas para mejorar el formato, quieres proponer nuevas diapositivas o deseas colaborar con una versión más visual o flexible del template, puedes abrir un issue o enviar un pull request.
 
 - GitHub: [Mikkel Farias](https://github.com/mikkelchile)
-- LinkedIn: [Mikkel Farias](www.linkedin.com/in/miguelfariasuc)
+- LinkedIn: [Mikkel Farias](https://www.linkedin.com/in/miguelfariasuc)
 
 ## Créditos e inspiración
 
