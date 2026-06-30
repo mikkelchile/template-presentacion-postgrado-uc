@@ -1,6 +1,6 @@
 # Template Presentación Postgrado Ingeniería UC
 
-> Estado: en construcción.
+> Estado: template funcional en mejora continua.
 
 Este repositorio contiene un **template no oficial** en LaTeX/Beamer para presentaciones académicas de postgrado en Ingeniería UC. Está pensado como una base editable, ordenada y reutilizable para estudiantes de **magíster** y **doctorado** que necesiten preparar presentaciones de avance, seminarios, defensas internas u otras instancias académicas.
 
