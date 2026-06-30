@@ -30,6 +30,14 @@ Este repositorio **no corresponde a un documento ni template oficial** de la Pon
 
 Las imágenes anteriores son capturas referenciales del PDF compilado. El contenido es genérico y debe ser reemplazado por la información real de cada estudiante, programa o unidad académica.
 
+## Qué incluye
+
+- Portada editable para presentaciones de posgrado.
+- Láminas base para contexto, problema, objetivos, metodología, resultados, cronograma y anexos.
+- Clase Beamer personalizada en `ucbeamer.cls`.
+- Paleta visual inspirada en referencias institucionales UC.
+- Archivos separados por secciones para facilitar la edición.
+- Script de compilación, Makefile y configuración `latexmk`.
 
 ## Uso rápido
 
@@ -230,7 +238,7 @@ El proyecto se mantiene abierto a mejoras, correcciones y sugerencias. Si encuen
 - Adaptado para presentaciones académicas de posgrado en Ingeniería UC.
 - Pensado para estudiantes de magíster y doctorado.
 - Inspirado parcialmente en la lógica de navegación de THU-Beamer-Theme. Ver `licenses/THU-Beamer-Theme-reference.txt`.
-- En particular, se considera como referencia visual una presentación/poster elaborada por [Carlos Otárola](https://www.linkedin.com/in/cotrolam/), estudiante de doctorado, quien utilizó formato, colores y elementos gráficos alineados con el Kit Digital UC. Dicho trabajo sirvió como inspiración para construir una base reutilizable, editable y visualmente consistente para presentaciones de posgrado.
+- Inspirado también en material académico presentado en seminarios internacionales del Departamento de Ingeniería de Minería UC, especialmente en el uso de colores, jerarquía visual y estructura de comunicación académica alineada con referencias institucionales.
 
 ## Nota sobre identidad institucional
 
@@ -238,7 +246,7 @@ Este template no es oficial. La presencia de colores, logos o elementos visuales
 
 ## Licencia
 
-Se sugiere utilizar la licencia MIT para el código fuente y la documentación del template. Los logos, marcas institucionales y recursos visuales de terceros pueden estar sujetos a condiciones distintas y deben usarse según los lineamientos correspondientes.
+Este repositorio se publica bajo licencia MIT para el código fuente y la documentación del template. Los logos, marcas institucionales y recursos visuales de terceros pueden estar sujetos a condiciones distintas y deben usarse según los lineamientos correspondientes.
 
 * [ ] Recibir sugerencias, issues o pull requests para mejorar el template. La idea es que este repositorio pueda seguir creciendo de manera colaborativa, incorporando correcciones, nuevas diapositivas, mejoras visuales, ajustes de formato y recomendaciones de otros estudiantes o usuarios que encuentren formas de hacerlo más claro, flexible y útil para presentaciones académicas de posgrado.
 
